@@ -11,6 +11,7 @@ namespace TestingGit.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
+            ViewBag.AnotherThing = "anotherThing";
 
             return View();
         }
